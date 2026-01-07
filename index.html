@@ -354,7 +354,11 @@
                 <div class="glass-panel p-8 md:p-12 rounded-2xl">
                     <div class="flex flex-col md:flex-row gap-12">
                         <div class="flex-1">
-                            <h3 class="text-xl font-bold mb-6 font-rajdhani">Fee Structure</h3>
+                            <h3 class="text-xl font-bold mb-6 flex items-center gap-3 font-rajdhani">
+                                <span class="icon-glass purple w-10 h-10 mb-0"><i data-lucide="coins"
+                                        class="w-5 h-5"></i></span>
+                                Fee Structure
+                            </h3>
                             <div class="space-y-4">
                                 <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-700">
                                     <div class="flex justify-between items-center mb-2">
@@ -379,7 +383,7 @@
                                         <span class="text-gray-300 font-medium">Treasury Fee</span>
                                         <span class="text-3xl font-bold text-purple-400 font-rajdhani">4%</span>
                                     </div>
-                                    <div class="text-sm text-gray-400">Applied at withdrawal, funds treasury operations
+                                    <div class="text-sm text-gray-400">Applied to total pool in winning rounds only
                                     </div>
                                 </div>
                             </div>
@@ -390,24 +394,58 @@
 
             <div class="max-w-5xl mx-auto mb-16 reveal">
                 <div class="glass-panel p-8 rounded-2xl">
-                    <h3 class="text-xl font-bold mb-6 text-center font-rajdhani">Treasury Strategy</h3>
-                    <div class="space-y-4 text-gray-300 text-center max-w-3xl mx-auto">
-                        <div class="flex items-center justify-center gap-3">
-                            <span class="text-purple-400 font-bold">•</span>
-                            <span>Treasury fees deployed to conservative DeFi lending protocols and/or staking</span>
+                    <h3 class="text-xl font-bold mb-8 text-center font-rajdhani">Treasury Strategy</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Deployment -->
+                        <div
+                            class="p-6 rounded-xl bg-slate-900/40 border border-slate-700/50 flex flex-col items-center text-center hover:bg-slate-900/60 transition-colors">
+                            <div class="mb-4 p-3 bg-purple-500/10 rounded-lg text-purple-400">
+                                <i data-lucide="landmark" class="w-6 h-6"></i>
+                            </div>
+                            <p class="text-sm text-gray-300">Treasury fees deployed to conservative DeFi lending
+                                protocols and/or staking</p>
                         </div>
-                        <div class="flex items-center justify-center gap-3">
-                            <span class="text-purple-400 font-bold">•</span>
-                            <span>Specific protocols and/or staking will be announced publicly</span>
+
+                        <!-- Visibility -->
+                        <div
+                            class="p-6 rounded-xl bg-slate-900/40 border border-slate-700/50 flex flex-col items-center text-center hover:bg-slate-900/60 transition-colors">
+                            <div class="mb-4 p-3 bg-blue-500/10 rounded-lg text-blue-400">
+                                <i data-lucide="megaphone" class="w-6 h-6"></i>
+                            </div>
+                            <p class="text-sm text-gray-300">Specific protocols and/or staking will be announced
+                                publicly</p>
                         </div>
-                        <div class="flex items-center justify-center gap-3">
-                            <span class="text-purple-400 font-bold">•</span>
-                            <span>Real-time treasury status when technically available</span>
+
+                        <!-- Real-time -->
+                        <div
+                            class="p-6 rounded-xl bg-slate-900/40 border border-slate-700/50 flex flex-col items-center text-center hover:bg-slate-900/60 transition-colors">
+                            <div class="mb-4 p-3 bg-green-500/10 rounded-lg text-green-400">
+                                <i data-lucide="activity" class="w-6 h-6"></i>
+                            </div>
+                            <p class="text-sm text-gray-300">Real-time treasury status when technically available</p>
                         </div>
-                        <div class="flex items-center justify-center gap-3">
-                            <span class="text-purple-400 font-bold">•</span>
-                            <span>Yield from lending and/or staking supports infrastructure and monthly
-                                distributions</span>
+
+                        <!-- Yield -->
+                        <div
+                            class="p-6 rounded-xl bg-slate-900/40 border border-slate-700/50 flex flex-col items-center text-center hover:bg-slate-900/60 transition-colors md:col-start-2 lg:col-start-auto">
+                            <div class="mb-4 p-3 bg-amber-500/10 rounded-lg text-amber-400">
+                                <i data-lucide="sprout" class="w-6 h-6"></i>
+                            </div>
+                            <p class="text-sm text-gray-300">Yield from lending and/or staking supports infrastructure
+                                and monthly
+                                distributions</p>
+                        </div>
+
+                        <!-- Snowball -->
+                        <div
+                            class="p-6 rounded-xl bg-slate-900/40 border border-slate-700/50 flex flex-col items-center text-center hover:bg-slate-900/60 transition-colors md:col-span-2 lg:col-span-1 md:mx-auto lg:mx-0 w-full">
+                            <div class="mb-4 p-3 bg-purple-500/10 rounded-lg text-purple-400">
+                                <i data-lucide="trending-up" class="w-6 h-6"></i>
+                            </div>
+                            <p class="text-sm text-gray-300">Treasury growth creates a <strong
+                                    class="text-white">snowball effect</strong>: as
+                                reserves accumulate,
+                                potential yield increases</p>
                         </div>
                     </div>
                 </div>
