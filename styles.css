@@ -183,6 +183,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Global Background Animation */

@@ -5,6 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAWBOX | Mechanics first. Participation measured.</title>
+    <meta name="description"
+        content="RAWBOX is an on-chain system where users voluntarily deploy SOL into short, rule-based rounds governed by fixed constraints and randomness.">
+    <meta name="keywords" content="Solana, Rawbox, On-chain, Mechanics, XP, Treasury, DeFi">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rawbox.app/">
+    <meta property="og:title" content="RAWBOX | Mechanics first. Participation measured.">
+    <meta property="og:description"
+        content="RAWBOX is an on-chain system where users voluntarily deploy SOL into short, rule-based rounds governed by fixed constraints and randomness.">
+    <meta property="og:image" content="https://rawbox.app/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rawbox.app/">
+    <meta property="twitter:title" content="RAWBOX | Mechanics first. Participation measured.">
+    <meta property="twitter:description"
+        content="RAWBOX is an on-chain system where users voluntarily deploy SOL into short, rule-based rounds governed by fixed constraints and randomness.">
+    <meta property="twitter:image" content="https://rawbox.app/og-image.jpg">
+
     <link rel="icon" type="image/svg+xml" href="logo.svg">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -62,7 +82,7 @@
 
         <div
             class="flex flex-col sm:flex-row gap-4 justify-center mb-20 delay-200 animate-fade-in opacity-0 fill-mode-forwards">
-            <a href="https://x.com/RawBoxSol" target="_blank"
+            <a href="https://x.com/RawBoxSol" target="_blank" aria-label="Twitter"
                 class="group relative overflow-hidden bg-black/90 hover:bg-black backdrop-blur-sm border border-white/10 px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-105 shadow-lg shadow-white/10 flex items-center gap-3">
                 <svg class="w-5 h-5 fill-current text-white" viewBox="0 0 24 24">
                     <path
@@ -73,7 +93,7 @@
                     class="absolute inset-0 bg-white/10 transform -skew-x-12 -translate-x-full group-hover:animate-shine">
                 </div>
             </a>
-            <a href="#" target="_blank"
+            <a href="#" target="_blank" aria-label="Discord"
                 class="group relative overflow-hidden bg-black/90 hover:bg-black backdrop-blur-sm border border-[#5865F2]/30 px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-105 shadow-lg shadow-[#5865F2]/20 flex items-center gap-3">
                 <svg class="w-6 h-6 fill-current text-[#5865F2]" viewBox="0 0 127.14 96.36">
                     <path
@@ -334,10 +354,7 @@
                 <div class="glass-panel p-8 md:p-12 rounded-2xl">
                     <div class="flex flex-col md:flex-row gap-12">
                         <div class="flex-1">
-                            <h3 class="text-xl font-bold mb-6 flex items-center gap-3 font-rajdhani">
-                                <span class="icon-glass blue w-10 h-10 mb-0"><i data-lucide="wrench" class="w-5 h-5"></i></span>
-                                Maintenance
-                            </h3>    
+                            <h3 class="text-xl font-bold mb-6 font-rajdhani">Fee Structure</h3>
                             <div class="space-y-4">
                                 <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-700">
                                     <div class="flex justify-between items-center mb-2">
@@ -362,7 +379,7 @@
                                         <span class="text-gray-300 font-medium">Treasury Fee</span>
                                         <span class="text-3xl font-bold text-purple-400 font-rajdhani">4%</span>
                                     </div>
-                                    <div class="text-sm text-gray-400">Applied to total pool in winning rounds only
+                                    <div class="text-sm text-gray-400">Applied at withdrawal, funds treasury operations
                                     </div>
                                 </div>
                             </div>
@@ -644,6 +661,3 @@
 </body>
 
 </html>
-
-
-
